@@ -1,0 +1,340 @@
+.container {
+    width: 1280px;
+    margin:0 auto;
+    background:linear-gradient(90deg, #C5C5C404, #F2EADEF4, #F4ECDF);
+}
+
+header {
+    width: 100%;
+    height: 201px;
+    display: flex;
+
+}
+.logo {
+    color: #C37F19;
+    font-size: 96px;
+    font-family: FZShuTi;
+    margin-left: 139px;
+    margin-top: 27px;
+}
+.logo-sub {
+    font-size: 24px;
+    margin-left: 69px;
+    height: 33px;
+    width: 234px;
+}
+
+.logo-cat {
+    width: 231px;
+    height: 137px;
+    object-fit: contain;
+    margin-top: 53px;
+    margin-right: 1050px;
+    position: absolute;
+}
+.nav-pic {
+    margin-left: 43px;
+    width: 87px;
+    object-fit: contain;
+    height: 201px;
+    /* position: absolute; */
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 827px;
+}
+.nav-bar {
+    width: 176px;
+    height: 201px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-btn {
+    width: 176px;
+    background-color: #D4A052;
+    height: 52px;
+    /* position: absolute; */
+    border-radius: 5px;
+    font-family: FZYaoTi;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 52px;
+    z-index: 2;
+    position: absolute;
+}
+.btn-1 {
+    /* margin-top: 149px; */
+    bottom: 0;
+}
+
+.a {
+    position: absolute;
+    z-index: 4;
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0;
+}
+.btn-1 .a:hover {cursor: pointer;}
+.btn-1 .a:hover + .btn-1-hover{
+    display: block;   }
+.btn-1-hover {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    width: 160px;
+    height: 270px;
+    top: -150px;
+    left: 40px;
+    background-image: url("/img/btn-1.png");
+}
+.btn-2-hover {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: -80px;
+    left: -55px;
+    width: 201px;
+    height: 106px;
+    background-image: url("/img/btn-2.png");
+}
+.btn-2 .a:hover {cursor: pointer;}
+.btn-2 .a:hover + .btn-2-hover{
+    display: block;   }
+.btn-3-hover {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: -190px;
+    left: -80px;
+    width: 380px;
+    height: 270px;
+    background-image: url("/img/btn-3.png");
+}
+.btn-3 .a:hover {cursor: pointer;}
+.btn-3 .a:hover + .btn-3-hover{
+    display: block;   }
+.btn-4-hover {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: -110px;
+    left:30px;
+    width: 200px;
+    height: 171px;
+    background-image: url("/img/btn-4.png");
+}
+.btn-4 .a:hover {cursor: pointer;}
+.btn-4 .a:hover + .btn-4-hover{
+    display: block;   }
+.btn-2 {
+    /* margin-top: 126px; */
+    top: 114px;
+}
+.btn-3 {
+    /* margin-top: 88px; */
+    top: 88px;
+}
+.btn-4 {
+    /* margin-top: 105px; */
+    top: 109px;
+} 
+.banner {
+    display: flex;
+}  
+.banner-1 {
+    position: relative;
+}
+.banner-title {
+    position: absolute;
+    top: 454px;
+    left: 353px;
+    font-family: FZShuTi;
+    color: #fff;
+    font-size: 64px;
+}
+.banner-2 {
+    position: relative;
+}
+.banner-blur {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #734E1666;
+    width: 424px;
+    height: 561px;
+    top: 0;
+    left: 0;
+    font-family: FZYaoTi;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: #ECECEC;
+    padding-top: 73px;
+    padding-left: 65px;
+    padding-right: 79px;
+}
+.banner-rate {
+    box-sizing: border-box;
+    position: absolute;
+    width: 271px;
+    height: 95px;
+    top: 401px;
+    left: 69px;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+.heart {
+    vertical-align:middle;
+}
+.content-bar {
+    display: flex;
+}
+.content-nav {
+    width: 275px;
+    height: 65px;
+    box-sizing: border-box;
+    padding: 11px 48px 16px 61px;
+    margin-right: 110px;
+    font-family: FZYaoTi;
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+    background-color: #D4A052;
+}
+.content {
+    display: flex;
+}
+.items {
+    position: relative;
+    width: 352px;
+    height: 603px;
+    background-image: url("/img/table-1.png");
+}
+
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 315px;
+  position: absolute;
+  bottom: 200px;
+  height: 300px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 133px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #CECECE;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.cat-pics {
+    box-sizing: border-box;
+    margin-left: 34px;
+    height: 652px;
+    width: 895px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row-m {
+    display: inline-block;
+}
+footer {
+    margin-top: 49px;
+    background-color: #D4A052;
+    width: 100%;
+    height: 174px;
+    text-align: center;
+    color: #fff;
+    font-family: FZShuTi;
+    font-size: 25px;
+    line-height: 26.37px;
+    box-sizing: border-box;
+    padding-top: 45px;
+    position: relative;
+    overflow: hidden;
+}
+.paw-1 {
+    transform: rotate(-32deg);
+    transform-origin: top left;
+    position: absolute;
+    left: 922px;
+    bottom: 110px;
+}
+.paw-2 {
+    position: absolute;
+    left: 981.63px;
+    bottom: 108px;
+    transform: rotate(11.18deg);
+    transform-origin: top left;
+}
+.paw-3 {
+    position: absolute;
+    left: 971px;
+    bottom: 46.52px;
+    transform: rotate(-14.01deg);
+    transform-origin: top left;
+}
+.paw-4 {
+    position: absolute;
+    left: 1031px;
+    bottom: 41.23px;
+    transform: rotate(-10.96deg);
+    transform-origin: top left;
+}
+.paw-5 {
+    position: absolute;
+    left: 1053px;
+    top: 139px;
+    transform: rotate(-29.35deg);
+    transform-origin: top left;
+}
